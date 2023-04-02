@@ -90,7 +90,7 @@ def main():
     It tries to resolve the includes by recursively searching in subdirectories
     of the provided top-level include file.
     
-    usage:  amalgamate.py topLevelInclude.hpp [amalgamatedOutput.hpp]
+    usage:  amalgamate_header_files.py topLevelInclude.hpp [amalgamatedOutput.hpp]
     
     default output: topLevelInclude_amalgamated.hpp (same folder as input)
     """
